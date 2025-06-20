@@ -1,0 +1,50 @@
+.expensetracker{
+    display:grid;
+    width:80vw;
+    padding:20px;
+    background:linear-gradient(75deg,rgb(120, 120, 228),white);
+    box-shadow: 0px 0px 10px goldenrod;
+    border-radius: 30px;
+}
+.maincontainer{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vw;
+    height:100vh;
+    background:linear-gradient(45deg,yellow,green);
+    line-height: 25px;
+}
+input{
+    height:20px;
+    border:none;
+    border-radius:20px;
+    padding: 5px;
+}
+.expensetracker div{
+    padding:10px;
+}
+button{
+    width:60px;
+    height:30px;
+    font-size:9px;
+    border:none;
+    color: black;
+    background-color: rgb(255, 135, 135);
+}
+ul li{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+}
+ul ul {
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+}
+.details{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
+.details h3{
+    font-weight:100px;
+}

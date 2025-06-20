@@ -1,0 +1,111 @@
+.bmi {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 0.5fr 3fr;
+    padding:90px;
+    border: 2px solid rgb(175, 151, 151);
+}
+
+.Heading {
+    grid-column: 1/3;
+    grid-row: 1/2;
+    border: 2px solid rgb(175, 151, 151);
+    background-color: black;
+    padding:10px;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.Matter {
+    grid-column: 1/3;
+    grid-row: 2/3;
+    background-color: black;
+    padding: 10px;
+    border: 2px solid rgb(175, 151, 151);
+    color: white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.Measures {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    background-color: black;
+    padding: 10px;
+    border: 2px solid rgb(175, 151, 151);
+    color: white;
+    line-height: 2;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
+
+.resul{
+    grid-column: 2/3;
+    grid-row:3/4;
+    background-color: black;
+    padding: 10px;
+    border: 2px solid rgb(175, 151, 151);
+    box-sizing: border-box;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    
+}
+.Matter h4{
+    padding:10px;
+    font-size:20px;
+}
+
+.gender{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    line-height:2;
+}
+.Measures h3{
+    font-size: 30px;
+}
+.res{
+    width:80%;
+    height:76%;
+    text-align:center;
+    font-size:10rem;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.gender button{
+    width:100px;
+    height:30px;
+    background-color: rgb(61, 61, 61);
+    border:none;
+    cursor:pointer;
+    border-radius: 5px;
+    margin:20px;
+    
+}
+.gender button:hover{
+    background-color: beige;   
+}
+input{
+    width:300px;
+    height:30px;
+    position:relative;
+    border:none;
+    margin-top:20px;
+    margin-bottom:20px;
+    padding:10px;
+}
+.one{
+    line-height:2;
+}
+

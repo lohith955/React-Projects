@@ -1,0 +1,134 @@
+.main {
+    padding: 0;
+    margin: 0;
+
+}
+
+.rojects {
+    text-shadow: 6px 6px 3px rgb(173, 163, 163);
+    font-size: 40px;
+    text-align: center;
+    height: 100vh;
+    margin: 20px;
+    width: 100vw;
+}
+
+.ecoration {
+    margin-bottom: 50px;
+    width:100%;
+    height:20%;
+    line-height:100px;
+    background-color: bisque;
+}
+.ecoration:hover {
+    box-shadow: 0px 0px 1000px red;
+
+}
+.ro {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    gap: 70px;
+    height: 100%;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+
+.mi {
+    width: 300px;
+    height: 300px;
+    background-image: url('bmi.jpg');
+    background-size: cover;
+    border-radius: 10%;
+    box-shadow: 2px 2px 30px green;
+    cursor:pointer;
+}
+
+.esume {
+    width: 300px;
+    height: 300px;
+    background-image: url('resumebg.jpg');
+    border-radius: 10%;
+    background-position: 42%;
+    cursor:pointer;
+    box-shadow: 2px 2px 30px rgb(70, 223, 232);
+
+}
+
+.xpensetr {
+    width: 300px;
+    height: 300px;
+    background-image: url('expensetrackerbg.jpg');
+    border-radius: 10%;
+    background-size: contain;
+    cursor:pointer;
+    box-shadow: 2px 2px 40px rgb(234, 110, 8);
+}
+.Stop {
+    width: 300px;
+    height: 300px;
+    background-image: url('stopbg.jpg');
+    border-radius: 10%;
+    background-size: cover;
+    cursor:pointer;
+    background-position: 40%;
+    box-shadow: 2px 2px 40px rgb(234, 110, 8);
+}
+
+.anbanboard {
+    width: 300px;
+    height: 300px;
+    background-image: url('kanbanboardbg.jpg');
+    border-radius: 10%;
+    background-size: contain;
+    cursor:pointer;
+    box-shadow: 2px 2px 40px rgb(234, 110, 8);
+}
+.nakeandladder {
+    width: 300px;
+    height: 300px;
+    background-image: url('snakeladderbg.jpg');
+    border-radius: 10%;
+    background-size: contain;
+    cursor:pointer;
+    box-shadow: 2px 2px 30px rgb(234, 103, 27);
+
+}
+
+.evenupsevendown {
+    width: 300px;
+    height: 300px;
+    background-image: url('sevenupsevendown.jpg');
+    border-radius: 10%;
+    background-size: contain;
+    cursor:pointer;
+    box-shadow: 2px 2px 30px rgb(0, 4, 4);
+
+}
+.xpensetr:hover,
+.mi:hover,
+.esume:hover,
+.anbanboard:hover,
+.nakeandladder:hover,
+.evenupsevendown:hover,
+.Stop:hover{
+    animation: jump 1s infinite ease-in-out;
+    transform: rotate(360deg);
+    transition: 2s linear;
+
+}
+
+@keyframes jump {
+    0% {
+        transform: translateY(-2px);
+    }
+
+    10% {
+        transform: translateY(2px);
+    }
+
+    20% {
+        transform: translateY(4px);
+    }
+}
